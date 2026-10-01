@@ -1,0 +1,8 @@
+{
+  "versionCode": 54,
+  "versionName": "0.24.1",
+  "sha256": "beeaa8c1f02a856ffdd8953628c29a1edd7a0df4689b14ad37dee70488227c2a",
+  "size": 15637335,
+  "notes": "Auditoría de seguridad y fiabilidad.\n\n- Grabar sin mirar: la combinación de volumen ya funciona aunque solo esté ella activada. No cuentan las teclas mantenidas, subir el volumen poco a poco ni las llamadas.\n- Agitar: hace falta empezar con el móvil quieto y sacudir de ida y vuelta; andar o correr no lo activan.\n- Botón Bluetooth: solo el botón de verdad (no otras apps) y ya no se queda con el play/pausa de tu música.\n- Una grabación programada no se para con un solo gesto: hay que repetirlo.\n- Icono Grabar/Parar: el registro dice qué app lo abrió; un doble toque no empieza y para a la vez.\n- Resumen del día: ya no se pierde ni sale repetido.\n- /pregunta: los botones de audio solo con «Grabar a distancia» activado.\n- /audio: una orden atrasada no se ejecuta, y no hace esperar a /pregunta ni /dia.\n- Alertas, /pregunta y resumen del día usan solo proveedores que no guardan tus textos.\n- Probar todo comprueba la transcripción principal de verdad.",
+  "apk": "app.apk"
+}
