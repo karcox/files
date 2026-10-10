@@ -1,0 +1,8 @@
+{
+  "versionCode": 64,
+  "versionName": "0.28.2",
+  "sha256": "685f168e2091e9401b06ebcedc7f4196b4ce98b875c93c266827bdaab3d57dff",
+  "size": 15928035,
+  "notes": "Auditoría: más fiabilidad y seguridad.\n\n- Zonas: las entradas y salidas se detectan aunque no haya GPS, el móvil se despierta para mirar con la pantalla apagada y la grabación de zona sigue bien al terminar un horario o al desactivar la zona.\n- La foto hecha con la cámara ya no se pierde si Android recrea la pantalla o si la grabación termina mientras.\n- Una imagen borrada mientras se leía ya no deja su texto en otra.\n- El chat sigue respondiendo aunque salgas de la pantalla; la pregunta se guarda al momento.\n- /nueva en Telegram mientras responde ya no recupera la conversación anterior.\n- La lista «Comprobar dónde está» de Zonas ya no se cierra sola.\n- Una grabación cortada al empezar pero con fotos ya no se borra.\n- Copias de seguridad: no se restauran rutas fuera de la sesión ni claves de otro proveedor, ni el estado de zonas o del chat de Telegram.\n- Descargas verificadas (modelo de voces), confirmación al parar desde el icono, avisos ocultos en la pantalla de bloqueo y sin enlaces en las notas de versión.",
+  "apk": "app-64.apk"
+}
