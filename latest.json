@@ -1,0 +1,8 @@
+{
+  "versionCode": 68,
+  "versionName": "0.29.0",
+  "sha256": "88e5cdd55b0eaca8c7d6fd89764119bf6087a09bc0b9f28f055fc46ebef82e78",
+  "size": 15952767,
+  "notes": "Alertas en tiempo real: gritos y golpes al momento, y revisión con IA casi en directo.\n\n- Nuevo «Aviso por gritos o golpes» (Ajustes › Telegram y alertas): mientras graba, si de repente suena mucho más fuerte que el ruido normal, avisa en segundos en el móvil y por Telegram, con botón para escucharlo. No usa IA, no cuesta nada y funciona sin conexión. Con sensibilidad baja, media o alta.\n- No avisa en los primeros 15 s de cada grabación, mientras suena el propio móvil (llamada, música, alarma o un aviso) ni más de una vez cada 3 min.\n- Nueva opción «Revisar casi en directo» en las alertas de peligro: cada minuto se transcribe y revisa lo último, y el aviso llega en 1–2 min en vez de al cerrar la parte de 10 min. Cuesta más (ese audio se transcribe dos veces) y gasta datos mientras graba; los silencios no se envían.\n- Lo ya avisado en directo no se repite al revisar la parte de 10 min.\n- Si la revisión en directo falla o el proveedor pone un límite, no se vuelve a pagar el mismo audio, descansa un rato y nunca pasa la transcripción normal al proveedor de reserva.\n- Las alertas salen ahora en un canal propio «Alertas de peligro», con sonido y por encima de los demás avisos.",
+  "apk": "app-68.apk"
+}
